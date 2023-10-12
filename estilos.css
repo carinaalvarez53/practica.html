@@ -127,8 +127,6 @@ a {
     display: block;
     padding: 1rem;
     text-decoration: none;
-
-
 }
 
 
@@ -146,3 +144,23 @@ display: block;
 .prueba { 
 background-color: aliceblue;
 }
+
+
+.footer {
+display: flex;
+flex-direction: column;
+padding: 2rem;
+align-items: center;
+
+}
+
+
+
+.footer__logo {
+    width: 150;
+    height: 150;
+
+
+}
+   
+  
