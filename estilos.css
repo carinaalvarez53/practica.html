@@ -26,14 +26,11 @@ body{
     color: rgb(31, 31, 27);
     font-family: 'Caveat', cursive;
     font-family: 'Poppins', sans-serif;
-    background-image: url("imagenes/f5427541809f3b65371e579dfb6cd8af.jpg");
+    background-image: url("videos/LOGOSUKHA.png");
     background-repeat: no-repeat;
-    background-size: 800;
+    background-size: cover;
 
 }
-
-
-
 
 
 
@@ -47,12 +44,29 @@ a {
 }
 
 
-
 .header {
     border: 10x solid red;
-    max-width: 600;
-margin: 0 auto;
+    display: flex; /* prop obligatoria para usar flexbux */
+    flex-direction: column; /* eje principal vertical (column) */
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 4rem;
+    padding: 4rem;
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
 
 .main {
     border: 10px solid yellow;
@@ -60,26 +74,37 @@ margin: 0 auto;
     margin: 0 auto;
 
 }
+
+
 .footer {
     border: 10px solid purple;
     max-width: 600px;
     margin: 0 auto;
-   
+ 
 }
 
-.header__logo {
-    width: 100px;
-    height: 100px;
+.header__logo{
+    width: 200px;
+    height: 200px;
 
 }
 
 
+.header__titulo{
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 0 2rem 0;
+    
+
+}
 
 
 .header_parrafo {
     text-align: center;
-font-style: italic;
-
+    font-style: italic;
 
 }
 
@@ -90,9 +115,6 @@ font-style: italic;
     padding-top: 2rem;
 padding-top: 3rem;
 padding-top: 4rem;
-
-
-
 
 }
 
